@@ -4,7 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>红岩文化融合思政课</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- 定义自定义字体 -->
+    <style>
+        @font-face {
+            font-family: 'Liu Jian Mao Cao';
+            src: url('fonts/LiuJianMaoCao.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #8B0000; /* 纯色深红背景 */
+            color: #FFD700; /* 金色字体 */
+            text-align: center;
+        }
+        header {
+            width: 100%;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav h1 {
+            margin-right: 20px;
+            color: #FFD700; /* 金色字体 */
+            font-family: 'ZCOOL XiaoWei', cursive; /* 毛笔艺术字字体 */
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'ZCOOL XiaoWei', cursive; /* 毛笔艺术字字体 */
+        }
+        main.hero {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            max-width: 800px;
+            width: 100%;
+            background-color: transparent; /* 去掉半透明黑色背景 */
+        }
+        main.hero h2 {
+            font-size: 2.5em; /* 减小字体大小以适应较小的屏幕 */
+            margin-bottom: 10px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #FFD700; /* 金色字体 */
+            font-family: 'Liu Jian Mao Cao', cursive; /* 更贴近毛笔风格的艺术字字体 */
+        }
+        main.hero p {
+            font-size: 1.2em; /* 减小字体大小以适应较小的屏幕 */
+            line-height: 1.6;
+            color: #FFD700; /* 金色字体 */
+            font-family: 'Liu Jian Mao Cao', cursive; /* 更贴近毛笔风格的艺术字字体 */
+        }
+        footer {
+            width: 100%;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
+        }
+        footer p {
+            margin: 0;
+            color: #FFD700; /* 金色字体 */
+            font-family: 'ZCOOL XiaoWei', cursive; /* 毛笔艺术字字体 */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -20,9 +105,8 @@
     </header>
 
     <main class="hero">
-        <h2>欢迎来到该网站</h2>
-        <p>这里展示我们的作品、项目与想法。</p>
-        <img src="pic/IMG_20250522_165526.jpg" alt="自然风景图" width="600" height="400">
+        <h2>红岩铸魂 思政融合</h2>
+        <p>欢迎来到该网站，这里展示我们的作品、项目与想法。</p>
     </main>
 
     <footer>
@@ -30,3 +114,4 @@
     </footer>
 </body>
 </html>
+
